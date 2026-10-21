@@ -11,9 +11,12 @@ class HealthCheckTest extends TestCase
     /**
      * A basic feature test example.
      */
+
+
      public function test_health_endpoint_returns_successful_response(): void
     {
-        $response = $this->getJson('/api/health');
+        //asdsdsds
+    $response = $this->getJson('/api/health');
 
         $response->assertOk()
             ->assertExactJson([
